@@ -16,6 +16,6 @@ This code is written in Python and utilizes the Porridge library available at [h
 
 - **Secure Password Storage**: Utilize Porridge to securely store passwords in a designated text file.
 - **Password Verification**: Verify stored passwords securely using Porridge.
-- **Customizable Time-Cost Parameter**: Fine-tune the time-cost parameter of Argon2 to adjust computational cost and enhance resistance against timing attacks. Based on the GitHub source, `time_cost` gives the number of iterations of the core algorithm. The default parameters aim for approximately 1ms boiling time with 512kB memory usage.
+- **Customizable Time-Cost Parameter**: Fine-tune the time-cost parameter of Argon2 to adjust computational cost and enhance resistance against timing attacks. Based on the [porridge documentation](https://github.com/thusoy/porridge), `time_cost` gives the number of iterations of the core algorithm. The default parameters aim for approximately 1ms boiling time with 512kB memory usage.
 - **Error Handling**: Robust error handling mechanisms provide clear feedback and guidance in case of input format issues.
 - **User-Friendly Interface**: Intuitive commands and feedback messages ensure a smooth user experience.
